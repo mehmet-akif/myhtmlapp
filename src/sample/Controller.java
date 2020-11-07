@@ -49,25 +49,12 @@ public class Controller {
     }
 
 
-    //  public void initialize (URL url, ResourceBundle rb){
-    //    htmlEditor.setHtmlText("<br>Write something</br>");
-    // }
- //   public String getHtmlText(){
-  //      return htmlEditor.getHtmlText();
-   // }
+
 
     @FXML private void converterActn(ActionEvent event) {
         textArea.setText(htmlEditor.getHtmlText());
     }
 
-    //converter.setOnAction(new EventHandler<ActionEvent>()
-    //{
-    //   public void handle(ActionEvent converter)
-    //  {
-    //      textArea.setText(htmlEditor.getHtmlText());
-    // }
-
-    //}
 
 
 
